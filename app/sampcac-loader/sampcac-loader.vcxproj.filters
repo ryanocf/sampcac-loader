@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sampcac-loader.cpp" />
+    <ClCompile Include="utils\process\process.cpp">
+      <Filter>utils\process</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{e81d00d8-cdc0-418f-b568-aaf26e077857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\process">
+      <UniqueIdentifier>{c0334c4a-fa80-45b2-bf7b-789463fe9d2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\process\process.hpp">
+      <Filter>utils\process</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

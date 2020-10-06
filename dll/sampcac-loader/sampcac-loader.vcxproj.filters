@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="utils\console\console.cpp">
+      <Filter>utils\console</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\timer.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="inject\inject.cpp">
+      <Filter>inject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a8335e48-3c64-4262-8c2e-19d8ea605643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\process">
+      <UniqueIdentifier>{1062b297-b5bf-479e-a30e-921709f3dc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\console">
+      <UniqueIdentifier>{4a1046e2-e5f5-4ae1-9121-977e1e2a1be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inject">
+      <UniqueIdentifier>{daba2dcf-040b-4580-98d4-13b201c876ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\process\process.hpp">
+      <Filter>utils\process</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\console\console.hpp">
+      <Filter>utils\console</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\inject.hpp">
+      <Filter>inject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
