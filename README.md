@@ -115,3 +115,4 @@ Feel free to open an [issue](https://github.com/ryanocf/sampcac-loader/issues/ne
 ## Credits
 
 https://github.com/DarthTon/Blackbone
+https://github.com/boostorg/algorithm
